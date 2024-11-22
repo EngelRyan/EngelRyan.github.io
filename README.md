@@ -59,19 +59,19 @@ Algumas das tecnologias com as quais tenho experiência:
 
 #### Home Section
 
-![Home Section](imgs/home-section.png)
+![Home Section](imgs/home_section.png.jpeg)
 
 #### About Me Section
 
-![About Me Section](imgs/about-me.png)
+![About Me Section](imgs/about_me_section.png)
 
 #### Portfolio Section
 
-![Portfolio Section](imgs/portfolio-section.png)
+![Portfolio Section](imgs/portfolio_section.png)
 
 #### Skills Section
 
-![Skills Section](imgs/skills-section.png)
+![Skills Section](imgs/skills_section.png)
 
 ### 🚀 Como Visualizar o Portfólio
 
