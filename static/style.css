@@ -9,11 +9,11 @@
 }
 
 :root{
-    --bg-color: #010326;
-    --second-bg-color: #010440;
-    --text-color: #ffffff;
+    --bg-color: #efdfd1
+    --second-bg-color: #f2635d;
+    --text-color: #f2635d;
     --second-color: #ffffff;    
-    --main-color: #0540F2;
+    --main-color: #f2635d;
     --big-font: 5rem;
     --h2-font: 3rem;
     --p-font: 1.1rem;
@@ -26,12 +26,12 @@ body::-webkit-scrollbar {
 
 body::-webkit-scrollbar-thumb {
 	border-radius: 10px;
-	background-color: var(--main-color);
+	background-color: #d0271d;
 }
 
 body{
-    background: var(--bg-color);
-    color: var(--text-color);
+    background: #efdfd1;
+    color: #f2635d;
 }
 
 header{
@@ -47,18 +47,18 @@ header{
     padding: 22px 15%;
     border-bottom: 1px solid transparent;
     transition: all .45s ease; 
-    background-color: #010440;
+    background-color: #f2635d;
 }
 
 .logo{
-    color: var(--text-color);
+    color: #ffffff;
     font-size: 35px;
     font-weight: 700;
     letter-spacing: 1px;
 }
 
 span{
-    color: var(--main-color);
+    color: #d0271d;
 }
 
 .navlist{
@@ -66,7 +66,7 @@ span{
 }
 
 .navlist a{
-    color: var(--second-color);
+    color: #ffffff;
     font-size: 17px;
     font-weight: 500;
     margin: 0 25px;
@@ -74,16 +74,16 @@ span{
 }
 
 .navlist a:hover{
-    color: var(--main-color);
+    color: #fac8bf;
 }
 
 .navlist a.active{
-    color: var(--main-color);
+    color: #fac8bf;
 }
 
 #menu-icon{
     font-size: 35px;
-    color: var(--text-color);
+    color: #ffffff;
     z-index: 10001;
     cursor: pointer;
     margin-left: 25px;
@@ -98,7 +98,7 @@ section{
     position: relative;
     height: 100vh;
     width: 100%;
-    background-image: url();/*place Image*/
+    background-image: url();
     background-size: cover;
     background-position: center;
     display: flex;
@@ -119,13 +119,13 @@ section{
     font-size: 20px;
     font-weight: 500;
     border-radius: 5px;
-    background: var(--main-color);
-    color: var(--text-color);
+    background: #d0271d;
+    color: #ffffff;
 }
 
 .two{
     display: inline-block;
-    color: var(--second-color);
+    color: #f2635d;
     font-size: 20px;
     font-weight: 500;
 }
@@ -133,13 +133,13 @@ section{
 .home-text h1{
     font-size: var(--big-font);
     font-weight: 700;
-    color: var(--text-color);
+    color: #f2635d;
     line-height: 1.1;
     margin: 0 0 8px;
 }
 
 .home-text h3{
-    color: var(--text-color);
+    color: #f2635d;
     margin: 0 0 35px;
     font-size: 3rem;
     font-weight: 700;
@@ -147,7 +147,7 @@ section{
 }
 
 .home-text p{
-    color: var(--second-color);
+    color: #f2635d;
     font-size: var(--p-font);
     margin-bottom: 10px;
     display: flex;
@@ -174,9 +174,9 @@ section{
 .btn{
     display: inline-block;
     padding: 12px 28px;
-    background-color: var(--main-color);
+    background-color: #d0271d;
     border-radius: 5px;
-    color: var(--text-color);
+    color: #d0271d;
     font-size: 1rem;
     letter-spacing: 1px;
     font-weight: 600;
@@ -193,14 +193,14 @@ section{
     justify-content: center;
     font-size: 15px;
     font-weight: 600;
-    color: var(--text-color);
+    color: #f2635d;
 }
 
 .btn2 span i{
     height: 55px;
     width: 55px;
-    background: var(--main-color);
-    color: var(--text-color);
+    background: #d0271d;
+    color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -227,7 +227,7 @@ section{
     justify-content: center;
     font-size: 15px;
     font-weight: 600;
-    color: var(--text-color);
+    color: #efdfd1;
     margin-right: 15px;
 }
 
@@ -238,8 +238,8 @@ section{
 .btn-socials span i{
     height: 55px;
     width: 55px;
-    background: var(--main-color);
-    color: var(--text-color);
+    background: #efdfd1;
+    color: black;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -260,7 +260,7 @@ header.sticky{
 }
 
 .about{
-    background-color: #010440;
+    background-color: #f2635d;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
@@ -272,35 +272,40 @@ header.sticky{
     height: 430px;
     width: 100%;
     border-radius: 10px;
-    box-shadow: var(--main-color) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    box-shadow: #d0271d 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
 .about-text h2 {
     font-size: var(--h2-font);
     line-height: 1;
+    color: #ffffff;
 }
 
 .about-text h4 {
     font-size: 24px;
     font-weight: 600;
-    color: var(--text-color);
+    color: #ffffff;
     line-height: 1.7;
     margin: 15px 0 30px;
 }
 
 .about-text p {
     font-size: var(--p-font);
-    color: var(--second-color);
+    color: #ffffff;
     line-height: 1.8;
     margin-bottom: 0.5rem;
 }
 
 .services{
-    background: var(--second-bg-color);
+    background: #f2635d;
 }
 
 .main-text{
     text-align: center;
+    color: #f2635d;
+}
+#skills{
+    color: #ffffff;
 }
 
 .main-text p{
@@ -331,7 +336,7 @@ header.sticky{
     max-height: 300px;
     min-height: 200px;
     text-align: center;
-    background: var(--main-color);
+    background: #efdfd1;
     padding: 35px 45px;
     border-radius: 8px;
     transition: all .45s ease;
@@ -407,10 +412,10 @@ header.sticky{
 }
 
 .layer i{
-    color: var(--main-color);
+    color: #ffffff;
     margin-top: 20px;
     font-size: 20px;
-    background: var(--text-color);
+    background: #fac8bf;
     width: 60px;
     height: 60px;
     display: flex;
@@ -440,7 +445,7 @@ header.sticky{
 }
 
 .last-text p{
-    color: var(--second-color);
+    color: #f2635d;
     font-size: var(--p-font)
 }
 
@@ -463,8 +468,8 @@ header.sticky{
     padding: 10px;
     border-radius: 8px;
     font-size: 28px;
-    color: var(--text-color);
-    background: var(--main-color);
+    color: #d0271d;
+    background: #ffffff;
 }
 
 .experience{
@@ -587,7 +592,7 @@ header.sticky{
         height: 90vh;
         display: flex;
         flex-direction: column;
-        background: var(--bg-color);
+        background: #efdfd1;
         text-align: center;
         justify-content: center;
         transition: all .45s ease;
@@ -598,7 +603,7 @@ header.sticky{
         margin: 17px;
         font-size: 20px;
         transition: all .45s ease;
-        color: var(--text-color);
+        color: #ffffff;
     }
 
     .navlist a:hover{
